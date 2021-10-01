@@ -19,7 +19,7 @@ public class CookiesApplication extends Application {
     public void start(Stage stage) throws Exception {
         this.setCurrentStage(stage);
 
-        this.getCurrentStage().setTitle("Calculator");
+        this.getCurrentStage().setTitle("Cookies");
         this.getCurrentStage().setFullScreen(false);
 
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/frame.fxml"));
